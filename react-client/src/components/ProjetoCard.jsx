@@ -4,7 +4,7 @@ const ProjetoCard = ({data}) => {
     return (
         <div className={styles.card}>
             <div 
-                style={{backgroundImage: `url(/public/pictures/${data.picture})`}}
+                style={{backgroundImage: `url(/pictures/${data.picture})`}}
                 className={styles.cardPicture}
             ></div>
             <div className={styles.textContainer}>

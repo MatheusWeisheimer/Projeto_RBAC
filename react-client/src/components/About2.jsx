@@ -1,4 +1,3 @@
-import { useState } from "react"
 import styles from "./About2.module.css"
 
 const About2 = ({ explainState, setExplainState, explainOptions }) => {
