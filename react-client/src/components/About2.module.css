@@ -1,0 +1,78 @@
+.about {
+    text-align: center;
+    padding-top: 4em;
+}
+
+.about, .iconsContainer, .iconGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconsContainer {
+    gap: 2em;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+.iconGroup {
+    justify-content: space-between;
+    height: 14rem;
+}
+
+.iconGroup > p {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.icon {
+    height: 12rem;
+}
+
+.arrow {
+    display: none;
+}
+
+.explain {
+    display: none;
+}
+
+@media (min-width: 601px) {
+    .iconsContainer {
+        flex-direction: row;
+        gap: 5em;
+    }
+
+    .iconGroup {
+        position: relative;
+        height: 10.5rem;
+        padding-bottom: 3em;
+    }
+
+    .icon {
+        height: 8rem;
+    }
+
+    .iconGroup > p {
+        font-size: 1.1rem;
+    }
+
+    .arrow {
+        display: block;
+        position: absolute;
+        bottom: -1em;
+    }
+
+    .explain {
+        width: 100%;
+        text-align: center;
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 1.75em 0;
+    }
+}
