@@ -1,0 +1,20 @@
+[
+  {
+    "header": "Fab Lab",
+    "desc": "Integre-se a uma comunidade mundial de alunos, educadores, técnicos, pesquisadores e inovadores.",
+    "url": "https://www.fablabs.io/labs/poalab",
+    "picture": "making.jpg"
+  },
+  {
+    "header": "Iniciativas da Nacional",
+    "desc": "Conheça as iniciativas realizadas pelo núcleo nacional da RBAC.",
+    "url": "https://aprendizagemcriativa.org/iniciativas-da-rbac",
+    "picture": "rbac_nacional.png"
+  },
+  {
+    "header": "Projetos do POA LAB",
+    "desc": "Descubra os treinamentos oferecidos no POA LAB",
+    "url": "https://poalab.net.br/#!/trainings",
+    "picture": "poalab2.jpg"
+  }
+]

@@ -1,28 +1,7 @@
 import { useState } from "react"
 import styles from "./About2.module.css"
 
-const About2 = () => {
-    const [explainState, setExplainState] = useState(0)
-    
-    const explainOptions = [
-        {
-            text: "Menos teoria, mais ação. É hora de modelar, construir, programar e testar pra valer. Seus projetos, suas regras.",
-            color: "rgba(255, 208, 33, 0.35)"
-        },
-        {
-            text: "Suas paixões, suas histórias e até suas ideias mais malucas são bem-vindas. Use a criatividade para deixar sua marca no mundo.",
-            color: "rgba(60, 152, 244, 0.35)"
-        },
-        {
-            text: "Troque ideias, encontre parceiros, junte seu talento ao de outros e descubra o poder de criar em equipe.",
-            color: "rgba(54, 202, 86, 0.35)"
-        },
-        {
-            text: "Desmonte, investigue e teste os limites. Aqui, sua curiosidade é o ponto de partida para as maiores descobertas.",
-            color: "rgba(251, 90, 74, 0.35)"
-        },
-    ]
-    
+const About2 = ({ explainState, setExplainState, explainOptions }) => {
     const explainDynStyles = {
         backgroundColor: explainOptions[explainState].color
     }
